@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body style="background-color: aquamarine;">
+    <div id="app">
+      <main style="justify-items: center;">
+        <h1>Trabajo práctico TypeScript</h1>
+            <!-- *********************  CALDULADORA  ********************* -->
+            <h2>Calculadora</h2>
+
+            <input type="number" id="input1">
+            <input type="number" id="input2">
+            
+            <button id="buttonSuma">Sumar</button>
+            <button id="buttonResta">Restar</button>
+            <button id="buttonMulti">Multiplicar</button>
+            <button id="buttonDivi">Dividir</button>
+            
+            <div id="idResultado"></div>
+
+            <!-- **************  CONTADOR DE PARES E IMPARES  ************************* -->
+            <h2>Contador de números pares e impares</h2>
+            <input type="number" id="rango1" placeholder="Escriba el N° mínimo">
+            <input type="number" id="rango2" placeholder="Escriba el N° máximo">
+
+            <button id="buttonConta">Contar pares e impares</button>
+
+            <div id="idResultadoConta"></div>
+            <!-- *******************  TABLA DE MULTIPLICAR  ************************* -->
+            <h2>Tabla de multiplicar</h2>
+            <p>Este programa permite visualizar el resultado de multiplicar el número deseado por los primeros 10 números naturales</p>
+            <input type="number" id="tablaMulti" placeholder="Escriba un número">
+
+            <button id="buttonTabla">Mostrar tabla y los resultados</button>
+
+            <div id="idTablaMulti"></div>
+
+            <!-- *********************    FIBONACCI   *********************** -->
+            <br>
+            <h2>Secuencia de Fibonaci</h2>
+            <button id="buttonFibo">Calcular la sucesión de Fibonacci</button>
+            
+            <div id="idFibo"></div>
+
+            <!-- ********************   CONVERTIDOR DE TEMPERATUDA   ***************** -->
+            <h2>Convertidor de temperaturas</h2>
+            <p>Ingrese un número y seleccione la temperatura a la que desee convertirlo</p>
+            
+            <input type="number" id="inputTempe" placeholder="Ingrese el número">
+            
+            <button id="buttonCelsius">Convertir a grados CELSIUS</button>
+            <button id="buttonFaren">Convertir a grados FAHRENHEIT</button>
+
+            <div id="idConverti"></div>
+            <!-- ********************   CONTADOR DE PALABRAS    *********************** -->
+            <h2>Contador de Palabras de una oración</h2>
+            <p>Con el siguiente programa se puede contar la cantidad de palabras que posee una oración</p>
+
+            <input type="text" id="inputContaPal" placeholder="Escriba la frase">
+
+            <button id="buttonContaPal">Contar las palabras</button>
+
+            <div id="idContaPal"></div>
+
+      </main>
+
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
